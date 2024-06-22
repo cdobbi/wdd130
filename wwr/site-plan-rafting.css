@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Gideon+Roman:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Verdana:wght@400&display=swap');
 
 :root {
     --primary-color: #0C4767;
@@ -6,7 +6,7 @@
     --accent-color: #B9A44C;
     --additional-accent-color: #F9F9F9;
     --heading-font: 'DM Sans', sans-serif; /* Use DM Sans for headings */
-    --paragraph-font: 'Gideon Roman', sans-serif; /* Use Gideon Roman for body text */
+    --paragraph-font: 'Verdana', sans-serif; /* Use Gideon Roman for body text */
     --navigation-background-color: #0C4767;
     --navigation-link-color: #B9A44C;
     --navigation-hover-link-color: #F9F9F9;
@@ -14,11 +14,11 @@
 }
 
 body {
-    font-family: var(--paragraph-font); /* Applies Gideon Roman to body text */
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font); /* Applies DM Sans to headings */
+    font-family: var(--heading-font);
 }
