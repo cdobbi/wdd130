@@ -42,7 +42,7 @@ nav {
     display: flex;
 }
 
-nav a, nava{
+nav a, nav a:link, nav a:visited{
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
