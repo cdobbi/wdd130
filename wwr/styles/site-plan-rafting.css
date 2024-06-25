@@ -7,7 +7,7 @@
     --accent2-color: #1d6d98; /* Blue */
     --heading-font: 'DM Sans', sans-serif; /* Use DM Sans for headings */
     --paragraph-font: 'Verdana', sans-serif; /* Use Verdana for body text */
-    --nav-background-color: #1d6d98; /* Blue */
+    --nav-background-color: #981d73; /* Purple */
     --nav-link-color: #ede242; /* Yellow */
     --nav-hover-link-color: #da6a41; /* Orange */
     --nav-hover-background-color: #304c12; /* Dark Green */
@@ -27,17 +27,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-color: #da6a41;
+    background-color: #da6a41; /* Orange */
     padding: 20px;
 }
 
 p {
     padding: 25px;
-    color: #000000;
+    color: #000000; /* Black */
 }
 
 nav {
-    background-color: #da6a41;
+    background-color: #da6a41; /* Orange */
     font-size: 1.2rem;
     display: flex;
 }
