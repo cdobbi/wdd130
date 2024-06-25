@@ -1,29 +1,31 @@
+/* Universal selector rule added at the top */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
 nav {
-    background-color: steelblue;
+    background-color: steelblue; /* Steel Blue */
     padding: 18px;
 }
 
 nav a {
-    color: white;
+    color: white; /* White */
     display: block;
     padding: 3px;
 }
 
 h1 {
-    color: steelblue(70, 130, 180);
+    color: rgb(70, 130, 180); /* Steel Blue */
 }
 
 img {
     width: 150px;
     height: auto;
-    border: steelblue solid 1px (70, 130, 180); 
+    border: 1px solid steelblue; /* Steel Blue */
     padding: 2px;
-    box-shadow: 0 0 30px gray (128, 128, 128);
+    box-shadow: 0 0 30px gray; /* Gray */
 }
 
 main img {
@@ -31,21 +33,8 @@ main img {
     height: auto;
 }
 
-p {
-    padding: 0;
-}
-
 main {
     max-width: 840px;
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    padding: 2rem;
-    background-color: #eee; /* Light Gray */
-    color: #333; /* Dark Gray */
-    text-align: center;
 }
 
 aside img {
@@ -54,16 +43,21 @@ aside img {
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 15px; 
     border-top: 1px solid #000; /* Black */
-    text-align: center;
+    text-align: center; 
 }
 
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: #c69b6e; /* Copper */
-    color: #462f0d; /* Dark Brown */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light Gray */
+    padding: 1rem; /* 16px */
+    background-color: #f4b28c; /* Light Brown */
+    color: #372306; /* Dark Brown */
+}
+
+aside {
+    width: 20em;
+    text-align: center;
 }
