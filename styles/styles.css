@@ -13,7 +13,7 @@ nav {
 nav a {
     color: white; /* White */
     display: block;
-    padding: 3px;
+    padding: 5px;
 }
 
 h1 {
@@ -58,6 +58,6 @@ footer {
 }
 
 aside {
-    width: 20em;
+    width: 20rem;
     text-align: center;
 }
