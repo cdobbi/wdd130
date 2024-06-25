@@ -34,6 +34,10 @@ main img {
     float: right;
 }
 
+main p {
+    font-family: 'Verdana', Arial, sans-serif;
+}
+
 main {
     max-width: 840px;
 }
