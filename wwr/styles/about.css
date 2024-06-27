@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Verdana:wght@400&display=swap');
 
-:root {
-    --primary-color: #ede242; /* Yellow */
-    --secondary-color: #da6a41; /* Orange */
-    --accent1-color: #304c12; /* Dark Green */
-    --accent2-color: #1d6d98; /* Blue */
-    --heading-font: 'DM Sans', sans-serif; /* Use DM Sans for headings */
-    --paragraph-font: 'Verdana', sans-serif; /* Use Verdana for body text */
-    --nav-background-color: #981d73; /* Purple */
-    --nav-link-color: #ede242; /* Yellow */
-    --nav-hover-link-color: #da6a41; /* Orange */
-    --nav-hover-background-color: #304c12; /* Dark Green */
+.hero {
+    background-image: url('../images/river-narrow.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Assuming white text for contrast */
+    text-align: center; /* Center the text */
+    padding: 100px 20px; /* Adjust padding as needed */
 }
 
 body {
