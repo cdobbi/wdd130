@@ -1,4 +1,4 @@
-/* Universal selector */
+/* Universal selector for box*/
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ nav {
 }
 
 nav a {
-    color: white; /* White */
+    color: white;
     display: block;
     padding: 5px;
     margin: 1px;
@@ -31,19 +31,25 @@ img {
     box-shadow: 0 0 30px gray; /* Gray */
 }
 
-main img {
-    width: 150px;
-    height: auto;
-    float: right;
+main {
+    max-width: 840px;
+    font-family: 'Verdana', Arial, sans-serif;
 }
 
 main p {
-    font-family: 'Verdana', Arial, sans-serif;
     margin-bottom: 30px;
 }
 
-main {
-    max-width: 840px;
+main img{
+    float: right}
+
+aside {
+    width: 28rem;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
 }
 
 aside.box {
@@ -78,19 +84,10 @@ footer {
 }
 
 /* Class Selectors */
-.box {
+aside.box {
     margin: 1rem;
     border: 1px solid rgba(132, 125, 125, 0.1); /* Light Gray */
     padding: 1rem; /* 16px */
     background-color: #f4b28c; /* Light Brown */
     color: #000000; /* Black */
-}
-
-aside {
-    width: 28rem;
-    text-align: center;
-}
-
-aside h2 {
-    position: absolute;
 }
