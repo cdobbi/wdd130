@@ -58,11 +58,10 @@ aside.box img {
 
 aside.box h2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    /* transform: translate(-50%, -50%); */
+    top: 47px;
+    left: 150px;
     text-align: center;
-    color: white; /* White */
+    color: rgb(3, 0, 0); /* Black */
 }
 
 footer {
@@ -88,7 +87,7 @@ footer {
 }
 
 aside {
-    width: 25rem;
+    width: 28rem;
     text-align: center;
     position: relative;
 }
