@@ -1,4 +1,4 @@
-/* Universal selector rule added at the top */
+/* Universal selector */
 * {
     margin: 0;
     padding: 0;
@@ -79,7 +79,7 @@ footer {
 
 /* Class Selectors */
 .box {
-    margin: 0.5rem;
+    margin: 1rem;
     border: 1px solid rgba(132, 125, 125, 0.1); /* Light Gray */
     padding: 1rem; /* 16px */
     background-color: #f4b28c; /* Light Brown */
@@ -89,25 +89,4 @@ footer {
 aside {
     width: 28rem;
     text-align: center;
-    position: relative;
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
-/* .image-container img {
-    width: 100%;
-    display: block;
-} 
- .image-container h2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    margin: 0;
-    color: white; /* White 
-    background-color: rgba(0, 0, 0, 0.5);
 }
