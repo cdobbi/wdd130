@@ -102,17 +102,24 @@ aside {
     display: inline-block;
 }
 
-/* .image-container img {
+ .image-container img {
     width: 100%;
     display: block;
-} */
-/* .image-container h2 {
+} 
+
+.image-container h2::before{
+    content: none;
+}
+ .image-container h2 {
+    border-top: none;
+    box-shadow: none;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
-    margin: 0;
+    margin-top: 0;
+    padding: 0;
     color: white; /* White */
-    /* background-color: rgba(0, 0, 0, 0.5);
-} */ 
+    background-color: none;
+}
