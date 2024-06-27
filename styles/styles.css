@@ -6,25 +6,28 @@
 }
 
 nav {
-    background-color: steelblue; /* Steel Blue */
-    padding: 18px;
+    background-color: rgb(111, 149, 181); /* Light Steel Blue */
+    padding: 12px;
 }
 
 nav a {
     color: white; /* White */
     display: block;
     padding: 5px;
+    margin: 1px;
 }
 
 h1 {
-    color: rgb(70, 130, 180); /* Steel Blue */
+    color: rgb(70, 130, 180); /* Light Steel Blue */
+    margin-bottom: 5px;
+    margin-top:30px;
 }
 
 img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue; /* Steel Blue */
-    padding: 2px;
+    padding: 5px;
     box-shadow: 0 0 30px gray; /* Gray */
 }
 
@@ -36,11 +39,13 @@ main img {
 
 main p {
     font-family: 'Verdana', Arial, sans-serif;
+    margin-bottom: 30px;
 }
 
 main {
     max-width: 840px;
 }
+
 aside.box {
     position: relative;
     display: inline-block;
@@ -59,34 +64,54 @@ aside.box h2 {
     text-align: center;
     color: white; /* White */
     background-color: rgba(0, 0, 0, 0.5);
-    margin
-    padding
-
+    padding: 5px;
+    margin-top: 25px;
+}
 
 footer {
     position: absolute;
     bottom: 10px;
     left: 0;
-    width: 50%;
+    width: 100%;
     text-align: center; 
-    color: white; /* White */
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px; 0;
-    margin-top: 15px; 
-    border-top: 1px solid #000; Black
+    color: rgb(0, 0, 0); /* Black */
+    background-color: rgba(114, 141, 148, 0.5);
+    padding: 5px;
+    margin-top: 25px; 
+    border-top: 1px solid #000; /* Black */
 }
 
 /* Class Selectors */
 .box {
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Light Gray */
+    margin: 0.5rem;
+    border: 1px solid rgba(132, 125, 125, 0.1); /* Light Gray */
     padding: 1rem; /* 16px */
     background-color: #f4b28c; /* Light Brown */
-    color: #372306; /* Dark Brown */
+    color: #000000; /* Black */
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+.image-container h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    color: white; /* White */
+    background-color: rgba(0, 0, 0, 0.5);
 }
