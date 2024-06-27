@@ -1,4 +1,4 @@
-/* Universal selector for box*/
+/* Universal selector */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: white; /* White */
     display: block;
     padding: 5px;
     margin: 1px;
@@ -31,25 +31,19 @@ img {
     box-shadow: 0 0 30px gray; /* Gray */
 }
 
-main {
-    max-width: 840px;
-    font-family: 'Verdana', Arial, sans-serif;
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
 }
 
 main p {
+    font-family: 'Verdana', Arial, sans-serif;
     margin-bottom: 30px;
 }
 
-main img{
-    float: right}
-
-aside {
-    width: 28rem;
-    text-align: center;
-}
-
-aside h2 {
-    position: absolute;
+main {
+    max-width: 840px;
 }
 
 aside.box {
@@ -90,4 +84,13 @@ aside.box {
     padding: 1rem; /* 16px */
     background-color: #f4b28c; /* Light Brown */
     color: #000000; /* Black */
+}
+
+aside {
+    width: 28rem;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
 }
