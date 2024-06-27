@@ -58,7 +58,8 @@ aside.box img {
 
 aside.box h2 {
     position: absolute;
-    bottom: 0;
+    top: 80px;
+    bottom: 200px;
     left: 0;
     right: 0;
     text-align: center;
@@ -91,7 +92,7 @@ footer {
 }
 
 aside {
-    width: 20rem;
+    width: 25rem;
     text-align: center;
     position: relative;
 }
@@ -101,11 +102,11 @@ aside {
     display: inline-block;
 }
 
-.image-container img {
+/* .image-container img {
     width: 100%;
     display: block;
-}
-.image-container h2 {
+} */
+/* .image-container h2 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -114,4 +115,4 @@ aside {
     margin: 0;
     color: white; /* White */
     background-color: rgba(0, 0, 0, 0.5);
-}
+} */
