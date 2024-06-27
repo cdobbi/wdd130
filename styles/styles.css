@@ -78,7 +78,7 @@ footer {
 }
 
 /* Class Selectors */
-aside.box {
+.box {
     margin: 1rem;
     border: 1px solid rgba(132, 125, 125, 0.1); /* Light Gray */
     padding: 1rem; /* 16px */
