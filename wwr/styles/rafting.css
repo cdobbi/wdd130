@@ -35,10 +35,8 @@ p {
 }
 
 h1 {
-    position: center;
     max-width: 800px;
     margin: 3rem auto;
-    font-family: Verdana 100rem;
     text-align: center;
 }
 
