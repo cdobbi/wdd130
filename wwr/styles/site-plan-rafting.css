@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #ede242; /* Yellow */
-    --secondary-color: #da6a41; /* Orange */
+    --secondary-color: #da9f41; /* Orange */
     --accent1-color: #304c12; /* Dark Green */
     --accent2-color: #1d6d98; /* Blue */
     --heading-font: 'DM Sans', sans-serif; /* Use DM Sans for headings */
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-color: #da6a41; /* Orange */
+    background-color: #da9f41; /* Orange-Gold */
     padding: 20px;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 nav {
-    background-color: #da6a41; /* Orange */
+    background-color: #da9f41; /* Orange */
     font-size: 1.2rem;
     display: flex;
 }

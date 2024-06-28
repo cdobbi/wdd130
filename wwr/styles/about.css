@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-color: #da6a41; /* Orange */
+    background-color: #225f40; /* Orange */
     padding: 20px;
 }
 
@@ -34,7 +34,7 @@ p {
 }
 
 nav {
-    background-color: #da6a41; /* Orange */
+    background-color: #da9f41;; /* Orange */
     font-size: 1.2rem;
     display: flex;
 }
