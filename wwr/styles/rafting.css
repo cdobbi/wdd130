@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Verdana:wght@400&display=swap');
 
 :root {
-    --primary-color: #ede242; /* Improved contrast */
-    --secondary-color: #da9f41; /* Improved contrast */
-    --accent1-color: #304c12; /* Dark Olive Green */
-    --accent2-color: #1d6d98; /* Blue */
+    --primary-color: #ede242;
+    --secondary-color: #da9f41;
+    --accent1-color: #304c12;
+    --accent2-color: #1d6d98;
     --heading-font: 'DM Sans', sans-serif;
     --paragraph-font: 'Verdana', sans-serif;
-    --nav-background-color: #da9f41; /* Dark Magenta */
-    --nav-link-color: #ffffff; /* Changed to white for better contrast */
-    --nav-hover-link-color: #ffffff; /* Changed to white for better contrast */
-    --nav-hover-background-color: #981d73; /* Orange */
+    --nav-background-color: #da9f41;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #f08a41; 
+    --nav-hover-background-color: #981d73;
 }
 
 header, nav {
-    background-color: var(--nav-background-color);
+    background-color: #da9f41;
     padding: 20px;
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: 'DM Sans', sans-serif;
     max-width: 1960px;
     margin: auto;
     padding: 20px;
-    background-color: var(--accent2-color);
+    background-color: #1d6d98;
 }
 
 p {
-    font-family: var(--paragraph-font);
+    font-family: 'Verdana', sans-serif;
     line-height: 1.6;
     margin-bottom: 1em;
     padding: 25px;
@@ -38,7 +38,7 @@ h1 {
     position: center;
     max-width: 800px;
     margin: 3rem auto;
-    font-family: var(--heading-font)100rem;
+    font-family: Verdana 100rem;
     text-align: center;
 }
 
@@ -56,7 +56,7 @@ article {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
-    background-color: rgba(52, 119, 130, 0.8);
+    background-color: rgba(58, 158, 174, 0.8);
     padding: 20px;
     box-sizing: border-box;
     z-index: 150;
@@ -68,19 +68,19 @@ article img {
 }
 
 nav {
-    background-color: var(--nav-background-color);
+    background-color: #da9f41;
     font-size: 1.5rem;
     display: flex;
 }
 
 nav a, nav a:link, nav a:visited {
     display: block;
-    color: var(--nav-link-color);
+    color: #ede242;
     text-decoration: none;
     padding: 10px 15px;
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    color: #ede242;
+    background-color: #981d73;
 }
