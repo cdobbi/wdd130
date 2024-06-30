@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Verdana:wght@400&display=swap');
 
+/* Color Scheme
+/* Label: Rafting Adventure Theme Palette:
+1. #0B3C5D - Deep Ocean Blue
+2. #328CC1 - Sky Blue
+3. #D9B310 - Sunshine Yellow
+4. #1D2731 - Dark Night
+Link to the color scheme on coolors.co: https://coolors.co/0b3c5d-328cc1-d9b310-1d2731 */
+
 :root {
     --primary-color: #ede242; /* Yellow */
     --secondary-color: #da9f41; /* Orange */
