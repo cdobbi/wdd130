@@ -1,60 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Verdana:wght@400&display=swap');
 
 :root {
-    --primary-color: #ede242;
-    --secondary-color: #da9f41;
-    --accent1-color: #304c12;
-    --accent2-color: #1d6d98;
-    --heading-font: 'DM Sans', sans-serif;
-    --paragraph-font: 'Verdana', sans-serif;
-    --nav-background-color: #da9f41;
-    --nav-link-color: #ede242;
-    --nav-hover-link-color: #eeeeee; 
-    --nav-hover-background-color: #981d73;
+    --primary-color: #ede242; /* Yellow */
+    --secondary-color: #da9f41; /* Orange */
+    --accent1-color: #304c12; /* Dark Green */
+    --accent2-color: #1d6d98; /* Blue */
+    --heading-font: 'DM Sans', sans-serif; /* Use DM Sans for headings */
+    --paragraph-font: 'Verdana', sans-serif; /* Use Verdana for body text */
+    --nav-background-color: #da9f41; /* Orange */
+    --nav-link-color: #ede242; /* Yellow */
+    --nav-hover-link-color: #da6a41; /* Orange */
+    --nav-hover-background-color: #981d73; /* Purple */
 }
 
-header, nav {
-    background-color: #da9f41;
-    padding: 10px;
-}
-
-body {
-    font-family: 'DM Sans', sans-serif;
-    max-width: 1960px;
-    margin: auto;
+header {
+    background-color: #da9f41; /* Orange-Gold */
     padding: 20px;
-    background-color: #1d6d98;
+}
+
+header img {
+    max-width: 100px; /* Adjust this value to make the logo smaller */
+    height: auto; /* Maintain aspect ratio */
 }
 
 p {
-    font-family: 'Verdana', sans-serif;
-    line-height: 1.6;
-    margin-bottom: 0rem;
     padding: 25px;
-    color: #000000;
-    font-size: 2rem;
+    color: #000000; /* Black */
 }
 
-h1 {
-    top: 50px;
-    max-width: 1900px;
-    text-align: center;
-    font-size: 5rem;
+nav {
+    background-color: #da9f41; /* Orange */
+    font-size: 1.2rem;
+    display: flex;
 }
 
-h2 {
-    max-width: 1900px;
-    text-align: left;
-    font-size: 2.5rem;
+nav a, nav a:link, nav a:visited{
+    display: block;
+    color: #eeeeee;
+    text-decoration: none;
+    padding: 10px 15px; /* Added padding for better spacing */
 }
 
-.hero{
-    margin: 2rem;
+nav a:hover {
+    color: #981d73;
+}
+
+
+.hero {
+    margin: 0rem;
     position: relative;
     top: 25px;
     display: block;
     width: 100%;
     height: auto;
+    background-image: url('images/colorado-river.jpg'); /* Example background image */
+    background-size: cover; /* Cover the entire .hero area */
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    color: #FFFFFF;
 }
 
 article {
@@ -63,31 +71,45 @@ article {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+    height: 40%;
     background-color: rgba(58, 158, 174, 0.8);
     padding: 20px;
     box-sizing: border-box;
     z-index: 150;
 }
 
+article p {
+    font-size: 14px;
+    width: 65%;
+    display: inline-block; /* Allows elements to sit next to each other */
+    margin-right: 20px;
+    margin-top: 0; /* Remove top margin */
+}
+
 article img {
-    float: right;
-    margin-left: 20px; 
+    position: absolute; /* Position the image absolutely within the article */
+    right: 20px; /* Position the image 20px from the right edge of the article */
+    top: 20px; /* Position the image 20px from the top edge of the article */
+    max-width: 25%; /* Limit the image width to 25% of the article */
+    height: auto;
 }
 
-nav {
-    background-color: #da9f41;
-    font-size: 1.5rem;
-    display: flex;
+
+article h2 {
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
-nav a, nav a:link, nav a:visited {
-    display: block;
-    color: #ede242;
-    text-decoration: none;
-    padding: 10px 15px;
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--accent2-color);
 }
 
-nav a:hover {
-    color: #eeeeee;
-    background-color: #981d73;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
+
