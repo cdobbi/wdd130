@@ -48,8 +48,10 @@ nav a:hover {
 
 .hero {
     margin: 0rem;
+    margin-bottom: 5rem;
     position: relative;
     top: 25px;
+    bottom: 25px;
     display: block;
     width: 100%;
     height: auto;
