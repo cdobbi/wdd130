@@ -65,16 +65,13 @@ aside.box h2 {
 }
 
 footer {
-    position: absolute;
-    top:
-    bottom: 10px;
+    bottom: 0;
     left: 0;
-    width: 98%;
+    width: 100%;
     text-align: center; 
     color: rgb(0, 0, 0); /* Black */
     background-color: rgba(114, 141, 148, 0.5);
     padding: 5px;
-    margin-top: 25px; 
     border-top: 1px solid #000; /* Black */
 }
 
